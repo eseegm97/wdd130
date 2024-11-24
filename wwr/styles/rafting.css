@@ -1,0 +1,9 @@
+:root {
+    --primary-color: #d2d4db;
+    --secondary-color: #a5a9ba;
+    --accent-1: #103834;
+    --accent-2: #8284aa;
+}
+.hero {
+    position: relative; 
+}
