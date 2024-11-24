@@ -3,7 +3,38 @@
     --secondary-color: #a5a9ba;
     --accent-1: #103834;
     --accent-2: #8284aa;
+    --heading-font: 'Knewave', serif;
+    --text-font: 'Stylish', serif;
 }
-.hero {
-    position: relative; 
+h1 {
+    color: var(--accent-1);
+    font: var(--heading-font);
+}
+h2 {
+    color: var(--accent-1);
+    font: var(--heading-font);
+}
+p {
+    color: var(--accent-2);
+    font: var(--text-font);
+}
+a.sociallinks {
+    text-decoration: none;
+}
+div.hero {
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero h1 {
+    position: absolute;
+}
+.hero article {
+    position: absolute;
+}
+article img {
+    float: right;
 }
