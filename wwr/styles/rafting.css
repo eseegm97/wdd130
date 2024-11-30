@@ -71,7 +71,9 @@ header img{
     padding: 100px;
     margin-left: 30%;
 }
-.history p {
+.adventureimg {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
 }
 footer {
     background-color: var(--primary-color)
