@@ -64,10 +64,12 @@ header img{
 .history h2 {
     color: var(--accent-1);
     font-family: 'Knewave', sans-serif;
-    padding-left: 45%;
+    padding-left: 47%;
+    transform: scale(2)
 }
 .history img {
-    padding-left: 35%;
+    padding: 100px;
+    margin-left: 30%;
 }
 .history p {
 }
