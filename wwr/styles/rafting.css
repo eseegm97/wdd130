@@ -71,6 +71,7 @@ header img{
     padding: 100px;
     margin-left: 30%;
 }
+
 .adventure {
     display: block;
     background-color: var(--primary-color);
@@ -79,7 +80,8 @@ header img{
 .adventure h2 {
     color: var(--accent-1);
     font-family: 'Knewave', sans-serif;
-    padding-left: 40%;
+    padding-left: 43%;
+    transform: scale(2)
 }
 .adventureimg {
     display: grid;
