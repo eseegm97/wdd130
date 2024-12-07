@@ -178,7 +178,7 @@ figcaption:hover {
 .companyinfo {
     margin: 1rem;
     border: 1px solid black;
-    background-color: var(--accent-1);
+    background-color: var(--secondary-color);
     display: flex;
     justify-content: center;
 }
