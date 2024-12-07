@@ -88,11 +88,6 @@ label, input, button, textarea {
     color: navy;
 }
 
-/* label {
-    text-align: right;
-    padding-right: 1rem;
-} */
-
 input, select, textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
@@ -122,11 +117,6 @@ button:hover {
     display: grid;
     align-items: center;
 }
-
-/* .column1 {
-    grid-template-columns: 3fr 1fr;
-    margin: 0.5rem 0;
-} */
 
 .column2 {
     grid-template-columns: 1fr 2fr;
@@ -160,7 +150,7 @@ button:hover {
     border: 1px solid black;
 }
 
-figcaption {
+.firstemployee p {
     margin-bottom: 1rem;
     padding: 0.5rem;
     font-family: Stylish, serif;
@@ -171,7 +161,37 @@ figcaption {
     background-color: var(--accent-2);
 }
 
-figcaption:hover {
+.secondemployee p {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-family: Stylish, serif;
+    color: var(--accent-1);
+    text-align: center;
+    display: block;
+    border: 1px solid black;
+    background-color: var(--accent-2);
+}
+
+.thirdemployee p {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-family: Stylish, serif;
+    color: var(--accent-1);
+    text-align: center;
+    display: block;
+    border: 1px solid black;
+    background-color: var(--accent-2);
+}
+
+.firstemployee p:hover {
+    color: red;
+}
+
+.secondemployee p:hover {
+    color: red;
+}
+
+.thirdemployee p:hover {
     color: red;
 }
 
@@ -228,34 +248,8 @@ footer {
 .sociallinks a:hover {
     transform: scale(0.7);
 }
-/* header {
-    background-color: var(--primary-color)
-}
-header img{
-    float: left;
-    padding: 50px;
-}
-.navigation {
-    text-align: center;
-    display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
-    grid-gap: 10cap;
-    padding: 100px;
-}
-.navigation a {
-    display: block;
-    color: navy;
-    padding: 20px;
-    text-decoration: none;
-    background-color: var(--secondary-color);
-    border: 1px solid black;
-}
-.navigation a:hover {
-    color: tomato;
-    font-weight: 700;
-    text-decoration: none;
-}
-.hero {
+
+/* .hero {
     position: relative;
 }
 .hero img {
@@ -327,16 +321,4 @@ footer p {
 p {
     color: var(--accent-2);
     font-family: 'Stylish', sans-serif;
-}
-.sociallinks {
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
-    padding: 50px;
-}
-.sociallinks a {
-    text-decoration: none;
-    transform: scale(0.3);
-}
-.sociallinks a:hover {
-    transform: scale(0.7);
 } */
