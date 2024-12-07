@@ -1,10 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root {
     --primary-color: #d2d4db;
     --secondary-color: #a5a9ba;
     --accent-1: #103834;
     --accent-2: #8284aa;
 }
-header {
+/* header {
     background-color: var(--primary-color)
 }
 header img{
@@ -115,4 +120,4 @@ p {
 }
 .sociallinks a:hover {
     transform: scale(0.7);
-}
+} */

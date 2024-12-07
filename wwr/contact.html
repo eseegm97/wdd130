@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&family=Stylish&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/rapids_river_rafting_logo.webp" alt="Rapids Rafting Logo">
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column1">
+                    <label for="purpose">Purpose of Message</label>
+                    <input type="radio" name="purpose" value="generalinquiry"> General Inquiry
+                    <input type="radio" name="purpose" value="reservationquestion"> Reservation Question
+                    <input type="radio" name="purpose" value="websitesuggestion"> Website Suggestion
+                </div>
+                <div class="form-item column1">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+                </div>
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                <input type="checkbox" id="subscribe" name="subscribe">
+            </fieldset>
+            <button type="submit">Submit Message</button>
+        </form>
+        <div class="employeephotos">
+            <img src="images/contact_page_photo1(v2).webp" alt="employee1">
+            <figcaption>Tanner Dodds | Owner/CEO</figcaption>
+            <img src="images/contact_page_photo2(v2).webp" alt="employee2">
+            <figcaption>Tanya Lee | Social media/communications specialist</figcaption>
+            <img src="images/contact_page_photo3(v2).webp" alt="employee3">
+            <figcaption>Randy Burger | Tour coordinator/guide</figcaption>
+        </div>
+    </main> 
+    <footer>
+        <div class="companyinfo">
+            <p>123 Balderdash Ln <br> Benton TN 37307</p>
+            <p>Office Phone: <br> (615) 111-2222</p>
+            <p>Office Email: <br> rapids.river.rafting@gmail.com</p>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2306.5223855473164!2d-84.6795191664151!3d35.158734578313066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885e3467080710c5%3A0x7f5afa672cb45a5!2sOcoee%20River!5e0!3m2!1sen!2sus!4v1733536444876!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <p>©️2024 Rapids River Rafting | Ethan Seegmiller</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook_logo.webp" alt="Facebook">
+            </a>
+            <a href="https://x.com">
+                <img src="images/x_logo.webp" alt="X">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram_logo.webp" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
