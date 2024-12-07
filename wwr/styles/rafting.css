@@ -162,9 +162,44 @@ button:hover {
 
 figcaption {
     margin-bottom: 1rem;
+    padding: 0.5rem;
     font-family: Stylish, serif;
-    color: navy;
+    color: var(--accent-1);
     text-align: center;
+    display: block;
+    border: 1px solid black;
+    background-color: var(--accent-2);
+}
+
+figcaption:hover {
+    color: red;
+}
+
+.companyinfo {
+    margin: 1rem;
+    border: 1px solid black;
+    background-color: var(--accent-1);
+    display: flex;
+    justify-content: center;
+}
+
+.addresses {
+    margin: 1rem;
+}
+
+.addresses p {
+    margin: 0.5rem;
+    padding: 1rem;
+    display: block;
+    border: 1px solid black;
+    font-family: Stylish, serif;
+    color: var(--accent-1);
+    background-color: var(--accent-2)
+}
+
+.map {
+    margin: 1rem;
+    border: 1px solid black;
 }
 
 footer {
