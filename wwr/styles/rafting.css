@@ -110,6 +110,8 @@ header img {
     border: 1px solid black;
     padding: 1rem;
     background-color: var(--accent-2);
+    font-family: Stylish, serif;
+    color: navy;
 }
 
 .contacttitle {
