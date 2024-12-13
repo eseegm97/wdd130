@@ -79,6 +79,7 @@ header img {
     transform: translate(-50%, -50%);
     font-family: Knewave, serif;
     color: var(--accent-1);
+    font-size: xx-large;
 }
 
 .hero .articlebackground {
@@ -94,9 +95,9 @@ header img {
 }
 
 .hero article {
-    width: 1000px;
+    width: 1500px;
     position: absolute;
-    top: 45.5%;
+    top: 48.5%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -105,13 +106,86 @@ header img {
     align-items: center;
 }
 
+.hero h2 {
+    position: absolute;
+    top: 0.1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--accent-1);
+    font-family: Knewave, serif;
+    font-size:xx-large;
+}
+
 .articletext {
     display: block;
     border: 1px solid black;
     padding: 1rem;
     background-color: var(--accent-2);
     font-family: Stylish, serif;
+    font-size: x-large;
     color: navy;
+}
+
+.history {
+    margin: 1rem;
+    display: block;
+    border: 1px solid black;
+    background-color: var(--secondary-color);
+}
+
+.history h2 {
+    margin: 1rem;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    font-family: Knewave, serif;
+    color: var(--accent-1);
+}
+
+.imgbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.imgbox p {
+    display: block;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    width: 800px;
+    background-color: var(--accent-2);
+    font-family: Stylish, serif;
+    color: navy;
+    font-size:x-large;
+}
+
+.adventure {
+    margin: 1rem;
+    display: block;
+    border: 1px solid black;
+    background-color: var(--secondary-color);
+}
+
+.adventure h2 {
+    margin: 1rem;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    font-family: Knewave, serif;
+    color: var(--accent-1);
+}
+
+.adventureimg {
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.adventureimg img {
+    width: 400px;
 }
 
 .contacttitle {
