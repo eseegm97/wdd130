@@ -88,6 +88,57 @@ header img {
     color: var(--accent-1)
 }
 
+.newsletter {
+    margin: 1rem;
+    display: block;
+    border: 1px solid black;
+    background-color: var(--secondary-color);
+}
+
+.newsletter fieldset {
+    margin: 1rem;
+    background-color: var(--accent-2);
+}
+
+.newsletter legend {
+    margin: 1rem;
+    font-family: Knewave, serif;
+    font-weight: 100;
+    color: var(--accent-1)
+}
+
+.newsletter .entername {
+    margin: 1rem;
+    font-family: Stylish, serif;
+    color: navy;
+}
+
+.newsletter .enteremail {
+    margin: 1rem;
+    font-family: Stylish, serif;
+    color: navy;
+}
+
+.newsletter .enterphone {
+    margin: 1rem;
+    font-family: Stylish, serif;
+    color: navy;
+}
+
+.newsletter button {
+    margin: 1rem;
+    background-color: var(--accent-2);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+.newsletter button:hover {
+    background-color: var(--accent-1);
+}
+
 /*About page styles*/
 
 .about-hero img {
