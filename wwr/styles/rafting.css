@@ -101,7 +101,7 @@ header img {
 }
 
 .newsletter legend {
-    margin: 1rem;
+    margin-left: 1rem;
     font-family: Knewave, serif;
     font-weight: 100;
     color: var(--accent-1)
@@ -125,6 +125,13 @@ header img {
     color: navy;
 }
 
+.newsletterinput {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 1000px;
+}
+
 .newsletter button {
     margin: 1rem;
     background-color: var(--accent-2);
@@ -137,6 +144,42 @@ header img {
 
 .newsletter button:hover {
     background-color: var(--accent-1);
+}
+
+.bookatrip {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    border: 1px solid black;
+    background-color: var(--secondary-color);
+}
+
+.bookatrip h1 {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    font-family: Knewave, serif;
+    font-weight: 100;
+    color: var(--accent-1)
+}
+
+.bookatrip a {
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    font-family: Stylish, serif;
+    color: navy;
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: var(--accent-2);
+}
+
+.homecontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 /*About page styles*/
