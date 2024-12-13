@@ -231,7 +231,7 @@ header img {
     color: var(--accent-1)
 }
 
-form {
+.contactinfo {
     width: 1500px;
     margin: 0 auto;
     padding: 1rem;
@@ -241,7 +241,7 @@ form {
     display: grid;
 }
 
-fieldset {
+.contactinfo fieldset {
     display: grid;
     grid-gap: .5rem;
     margin: 1rem;
@@ -249,30 +249,30 @@ fieldset {
     padding: 1rem;
 }
 
-legend {
+.contactinfo legend {
     padding: 0.5rem;
     color: var(--accent-1);
     font-size: 1.3rem;
     font-family: Knewave, serif;
 }
 
-label, input, button, textarea {
+.contactinfo label, input, button, textarea {
     font-family: Stylish, serif;
     color: navy;
 }
 
-input, select, textarea {
+.contactinfo input, select, textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
 }
 
-input[type="checkbox"] {
+.contactinfo input[type="checkbox"] {
     width: 22px;
     height: 22px;
     vertical-align: bottom;
 }
 
-button {
+.contactinfo button {
     margin: 1rem;
     background-color: var(--accent-2);
     color: #fff;
@@ -282,32 +282,32 @@ button {
     font-size: 1.2rem;
 }
 
-button:hover {
+.contactinfo button:hover {
     background-color: var(--accent-1);
 }
 
-.form-item {
+.contactinfo .form-item {
     display: grid;
     align-items: center;
 }
 
-.column2 {
+.contactinfo .column2 {
     grid-template-columns: 1fr 2fr;
 }
 
-.column2 label {
+.contactinfo .column2 label {
     text-align: right;
     padding-right: 1rem;
 }
 
-.column1 h3{
+.contactinfo .column1 h3{
     margin-bottom: 1rem;
     font-family: Stylish, serif;
     font-weight: 500;
     color: navy;
 }
 
-input[type="radio"] {
+.contactinfo input[type="radio"] {
     display: inline-block;
     width: 1.15em;
     height: 1.15em;
@@ -315,7 +315,7 @@ input[type="radio"] {
     border: 0.15em solid #ccc;
     background-color: #fff;
     cursor: pointer;
-  }
+}
 
 .employeephotos {
     margin: 1rem;
