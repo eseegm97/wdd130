@@ -106,7 +106,7 @@ header img {
     font-family: Knewave, serif;
     font-weight: 100;
     color: var(--accent-1);
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .newsletter .entername {
@@ -114,13 +114,22 @@ header img {
     font-family: Stylish, serif;
     color: navy;
     font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 20px 10px;
+    margin-right: 400px;
 }
-
 .newsletter .enteremail {
     margin: 1rem;
     font-family: Stylish, serif;
     color: navy;
     font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 20px 10px;
+    margin-right: 400px;
 }
 
 .newsletter .enterphone {
@@ -128,13 +137,25 @@ header img {
     font-family: Stylish, serif;
     color: navy;
     font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 20px 10px;
+    margin-right: 400px;
 }
 
-.newsletterinput {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    margin-right: 1000px;
+.helpfultip {
+    margin: 1rem;
+    display: block;
+    border: 1px solid black;
+    background-color: var(--secondary-color);
+}
+
+.helpfultip p {
+    padding: 1rem;
+    font-family: Stylish, serif;
+    color: navy;
+    font-size: 20px;
 }
 
 .newsletter button {
@@ -158,7 +179,7 @@ header img {
     align-self: center;
     border: 1px solid black;
     background-color: var(--secondary-color);
-    width: 70%;
+    width: 50%;
     height: 300px;
 }
 
@@ -168,7 +189,8 @@ header img {
     justify-content: center;
     font-family: Knewave, serif;
     font-weight: 100;
-    color: var(--accent-1)
+    color: var(--accent-1);
+    font-size: 40px;
 }
 
 .bookatrip a {
