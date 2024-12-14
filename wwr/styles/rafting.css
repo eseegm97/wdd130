@@ -518,6 +518,39 @@ header img {
     font-size: 20px;
 }
 
+.tabletitle {
+    margin: 1rem;
+    text-align: center;
+    font-family: Knewave, serif;
+    font-weight: 100;
+    color: var(--accent-1);
+    font-size: 30px;
+}
+
+table {
+    margin: 1rem;
+    width: 98.6%;
+    border: 1px solid black;
+    background-color: var(--secondary-color);
+}
+
+th {
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: var(--accent-2);
+    font-family: Stylish, serif;
+    color: navy;
+    font-size: 25px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 1rem;
+    font-family: Stylish, serif;
+    color: navy;
+    font-size: 20px;
+}
+
 /*Contact page styles*/
 
 .contacttitle {
