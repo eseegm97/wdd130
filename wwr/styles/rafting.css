@@ -85,7 +85,8 @@ header img {
     transform: translate(-50%, -50%);
     font-family: Knewave, serif;
     font-weight: 100;
-    color: var(--accent-1)
+    color: var(--accent-1);
+    font-size: 70px;
 }
 
 .newsletter {
@@ -104,25 +105,29 @@ header img {
     margin-left: 1rem;
     font-family: Knewave, serif;
     font-weight: 100;
-    color: var(--accent-1)
+    color: var(--accent-1);
+    font-size: 45px;
 }
 
 .newsletter .entername {
     margin: 1rem;
     font-family: Stylish, serif;
     color: navy;
+    font-size: 25px;
 }
 
 .newsletter .enteremail {
     margin: 1rem;
     font-family: Stylish, serif;
     color: navy;
+    font-size: 25px;
 }
 
 .newsletter .enterphone {
     margin: 1rem;
     font-family: Stylish, serif;
     color: navy;
+    font-size: 25px;
 }
 
 .newsletterinput {
@@ -153,6 +158,8 @@ header img {
     align-self: center;
     border: 1px solid black;
     background-color: var(--secondary-color);
+    width: 70%;
+    height: 300px;
 }
 
 .bookatrip h1 {
@@ -174,6 +181,7 @@ header img {
     text-decoration: none;
     border: 1px solid black;
     background-color: var(--accent-2);
+    font-size: 50px;
 }
 
 .homecontent {
@@ -208,6 +216,7 @@ header img {
     transform: translate(-50%, -50%);
     font-family: Knewave, serif;
     color: var(--accent-1);
+    font-size: 70px;
 }
 
 .about-hero .articlebackground {
@@ -241,7 +250,7 @@ header img {
     transform: translate(-50%, -50%);
     color: var(--accent-1);
     font-family: Knewave, serif;
-    font-size:xx-large;
+    font-size: 50px;
 }
 
 .articletext {
