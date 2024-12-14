@@ -374,7 +374,54 @@ header img {
 
 /*Trips page styles*/
 
+.tripstitle {
+    margin: 1rem;
+    text-align: center;
+    font-family: Knewave, serif;
+    font-weight: 100;
+    color: var(--accent-1);
+    font-size: 30px;
+}
 
+.tripsinfo {
+    display: block;
+    margin: 1rem;
+    border: 1px solid black;
+    background-color: var(--secondary-color);
+}
+
+.tripsinfo .questions {
+    float: left;
+    display: block;
+    margin: 1rem;
+    border: 1px solid black;
+    background-color: var(--accent-2);
+}
+
+.tripsinfo .questions h2 {
+    padding: 1rem;
+    font-family: Knewave, serif;
+    font-weight: 100;
+    color: var(--accent-1);
+    text-align: center;
+}
+
+.tripsinfo .questions a {
+    display: block;
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+    font-family: Stylish, serif;
+    color: navy;
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    font-size: 20px;
+}
+
+.tripsinfo .questions a:hover {
+    color: red;
+}
 
 /*Contact page styles*/
 
@@ -597,4 +644,26 @@ footer {
 
 #contactfooter {
     margin: 1rem;
+}
+
+#contactfooter a {
+    color: navy;
+    text-decoration: none;
+}
+
+#contactfooter a:hover {
+    color: red;
+}
+
+#tripsfooter {
+    margin: 1rem;
+}
+
+#tripsfooter a {
+    color: navy;
+    text-decoration: none;
+}
+
+#tripsfooter a:hover {
+    color: red;
 }
