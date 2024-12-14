@@ -594,3 +594,7 @@ footer {
 .sociallinks a:hover {
     transform: scale(0.7);
 }
+
+#contactfooter {
+    margin: 1rem;
+}
