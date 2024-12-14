@@ -770,28 +770,28 @@ footer {
     transform: scale(0.7);
 }
 
-#contactfooter {
+.contactfooter {
     margin: 1rem;
 }
 
-#contactfooter a {
+.contactfooter a {
     color: navy;
     text-decoration: none;
 }
 
-#contactfooter a:hover {
+.contactfooter a:hover {
     color: red;
 }
 
-#tripsfooter {
+.tripsfooter {
     margin: 1rem;
 }
 
-#tripsfooter a {
+.tripsfooter a {
     color: navy;
     text-decoration: none;
 }
 
-#tripsfooter a:hover {
+.tripsfooter a:hover {
     color: red;
 }
